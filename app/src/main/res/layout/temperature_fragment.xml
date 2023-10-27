@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/warm">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameTextView"
+        android:text="Name: "
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#5858ce"
+        android:textStyle="bold"
+        android:outlineAmbientShadowColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastUpdatedTextView"
+        android:text="Last Updated: "
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#5858ce"
+        android:textStyle="bold"
+        android:outlineAmbientShadowColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/celsiusTextView"
+        android:text="Celsius: "
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#5858ce"
+        android:textStyle="bold"
+        android:outlineAmbientShadowColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fahrenheitTextView"
+        android:text="Fahrenheit: "
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#5858ce"
+        android:textStyle="bold"
+        android:outlineAmbientShadowColor="@color/black"/>
+
+
+    <!-- Add UI components for the first view here -->
+</LinearLayout>
